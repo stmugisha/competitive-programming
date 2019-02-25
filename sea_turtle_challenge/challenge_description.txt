@@ -1,0 +1,41 @@
+The objective of this competition is to create a machine learning model to help identify potential errors and anomalies in the sea turtle rescue database.
+The data used to train the model will be ‘dirty’ and ‘cleaned’ data containing all of the unique sea turtle rescues that took place from 1998 until 2011.
+
+ABOUT THE DATA
+Since 1998, Local Ocean Conservation (LOC) has been running a by catch net release program. 
+By catch is when a non-target species, in this case endangered and critically endangered species of marine turtles, are captured in fishing gear accidently. 
+They become tangled in nets and risk injury, drowning and even slaughter. What do we do about it? We work with around 350 local fishermen who,
+instead of slaughtering the turtles they catch or leaving them to die, contact us. We are then able to race to the rescue!
+
+We assess the turtles condition, checking for parasites and injuries.
+We collect data such as measurements, weight, species, gender etc.
+We attach a tag or record the number of an existing tag
+We maintain a database of all recorded data
+We monitor the condition of turtles that have been recaptured, sometimes these are even ex-patients from our Rehabilitation Centre!
+If the turtle is fit and healthy we transport them to a safe release site where they are returned to the ocean. If the turtle is sick or injured, 
+we transport them back to our Rehabilitation Centre for medical treatment and provide specialist care until such time as they are strong enough to be released.
+
+We provide a small amount of remuneration to help participating fishermen to repair any damage to their gear and cover any other expenses incurred such as telephone
+and transport costs.
+
+Each year the number of fishermen involved in this programme increases along with the number of turtles released, 
+a reflection of the success of the linked education and community development programmes.
+
+Since 1998 over 10,000 turtles have been released through this programme.
+
+The problem YOU will help us solve!
+
+Each time a fisher catches a turtle he/she delivers the turtle to LOC researchers who collect the data on the rescue in a handwritten logbook. 
+(Though we hope to introduce an electronic form of data collection soon.) 
+Back in the office, LOC staff and volunteers then enter the handwritten data in an Access database. At the end of the year, 
+LOC staff review each rescue/field to compare the database entry with the hand-written log book to ensure the integrity of the data.
+
+LOC would like to reduce the amount of time and effort needed for this review process. (And it is a lot!)
+
+The objective of this challenge is to process the data in the turtle rescue database and assign a probability that any given field has been entered erroneously from the 
+logbook into the database.
+
+GOAL:
+You are asked to make predictions for each field in the test dataset about the likelihood of it containing an error 
+(i.e. that the cleaned data is different from the pre-cleaned data). You will train your model on all of the data from 1998 to 2010 (except for 2008 and 2009). 
+The test dataset is the 2011 data.
