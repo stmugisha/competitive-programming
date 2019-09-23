@@ -1,4 +1,4 @@
-# competitive-programming
+# Fraud_detection using MachineLearning
 <p>
 This challenge aims to leverage the power of machine learning to aid<br>
 credit fraud detection in financial instutions/service providers.
