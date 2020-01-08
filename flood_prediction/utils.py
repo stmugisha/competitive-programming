@@ -1,5 +1,6 @@
 import pandas as pd
-
+import numpy as np
+from sklearn.metrics import mean_squared_error
 
 def read_data(path: str, transpose=False) -> pd.DataFrame:
     """Read a csv file into a pandas DataFrame.
@@ -53,3 +54,11 @@ def split_data(dataset: pd.DataFrame, train=True, test=False):
         return train_set
     if test:
         return test_set
+    
+def rmse(y, y_hat):
+    """Compute the root mean squared error
+    between true values `(y)` and the predicted values
+    `(y_hat)`
+    """
+    return np.sqrt(mean_squared_error(y, y_hat))
+
