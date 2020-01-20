@@ -56,7 +56,7 @@ def split_data(dataset: pd.DataFrame, train=True, test=False):
         return test_set
     
 def rmse(y, y_hat):
-    """Compute the root mean squared error
+    """Computes the root mean squared error
     between true values `(y)` and the predicted values
     `(y_hat)`
     """
