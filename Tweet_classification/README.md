@@ -13,4 +13,4 @@ Solution summary:
 * Model: xgboost
 * evaluation metric: RMSE.
 
-**Score:** 0.5719 **Rank:** 34/131
+**Score:** 0.5985 **Rank:** 47/131
