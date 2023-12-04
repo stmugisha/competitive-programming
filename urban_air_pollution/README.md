@@ -14,9 +14,9 @@ Solution summary:
 * feature selection (dropped two features that hurt performance alot)
 
 * Cross-validation strategy:
-> * A seeded 8-fold KFold train data split and cross-validation without shuffling.
+> * 8-fold KFold train data split and cross-validation without shuffling.
 
 * Model: LightGBM
-* evaluation metrics RMSE.
+* evaluation metric: RMSE.
 
 **Score:** 29.7419 **Rank:** 46/126
