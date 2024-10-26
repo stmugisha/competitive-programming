@@ -18,6 +18,6 @@ timm==0.9.8
 tokenizers==0.14.1
 torch==2.1.0
 torchvision==0.16.0
-tqdm==4.66.1
+tqdm==4.66.3
 transformers==4.34.1
 xgboost==2.0.0
