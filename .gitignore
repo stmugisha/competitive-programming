@@ -7,3 +7,8 @@ urban_air_pollution/submissions/
 env/
 submissions/
 submission.csv
+embeddings/
+sub*.csv
+*.jpg
+*.png
+reg_data/
