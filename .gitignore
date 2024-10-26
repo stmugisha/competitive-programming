@@ -2,3 +2,7 @@
 *__pycache__/
 covid-19_vulnerability_mapping_SA/submissions/
 urban_air_pollution/submissions/
+.DS_Store
+.vscode
+env/
+submissions/
