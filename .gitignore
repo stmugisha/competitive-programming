@@ -12,3 +12,7 @@ sub*.csv
 *.jpg
 *.png
 reg_data/
+wandb/
+*.pt
+runs/
+datasets/
