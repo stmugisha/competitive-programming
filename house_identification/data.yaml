@@ -1,0 +1,7 @@
+names:
+- Thatch
+- Tin
+- Other
+nc: 3
+train: ./data512/train
+val: ./data512/val
